@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-cmake}",
+            "name": "Debug swift-executable",
+            "program": "${workspaceFolder:swift-cmake}/.build/debug/swift-executable",
+            "preLaunchTask": "swift: Build Debug swift-executable"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-cmake}",
+            "name": "Release swift-executable",
+            "program": "${workspaceFolder:swift-cmake}/.build/release/swift-executable",
+            "preLaunchTask": "swift: Build Release swift-executable"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-cmake}/Sources",
+            "name": "Debug swift-executable (Sources)",
+            "program": "${workspaceFolder:swift-cmake}/Sources/.build/debug/swift-executable",
+            "preLaunchTask": "swift: Build Debug swift-executable (Sources)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-cmake}/Sources",
+            "name": "Release swift-executable (Sources)",
+            "program": "${workspaceFolder:swift-cmake}/Sources/.build/release/swift-executable",
+            "preLaunchTask": "swift: Build Release swift-executable (Sources)"
+        }
+    ]
+}
