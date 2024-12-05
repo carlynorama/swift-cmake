@@ -48,6 +48,10 @@ searching github: https://github.com/apple/swift-embedded-examples/blob/fc1942bc
   }
 }
 ```
+
+## More Useful Links
+
+- https://clang.llvm.org/docs/JSONCompilationDatabase.html
 - https://github.com/swiftlang/sourcekit-lsp/blob/3131ca3c81c2895d7e319bb10abab1d9801f4bd9/Documentation/Using%20SourceKit-LSP%20with%20Embedded%20Projects.md
 - https://forums.swift.org/t/sourcekit-lsp-and-cmake/67956
 - https://github.com/apple/foundationdb/blob/main/SWIFT_IDE_SETUP.md
@@ -62,3 +66,4 @@ seems related:
 - https://github.com/swiftlang/vscode-swift/issues/636
 - https://github.com/swiftlang/vscode-swift/issues/1208
 - https://github.com/swiftlang/vscode-swift/issues/1087
+- https://github.com/zed-extensions/swift/issues/13

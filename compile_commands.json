@@ -2,13 +2,11 @@
   {
     "directory": "Banana",
     "command": "swiftc -j 10 -num-threads 10 -c -module-name MyApp -incremental -output-file-map Banana/main.swift Banana/moar.swift",
-    "file": "Banana/main.swift",
-    "output": "CMakeFiles/MyApp.dir/Banana/main.swift.o"
+    "file": "Banana/main.swift"
   },
   {
     "directory": "build",
-    "command": "swiftc -j 10 -num-threads 10 -c -module-name MyApp -incremental -output-file-map Banana/main.swift Banana/moar.swift",
-    "file": "Banana/moar.swift",
-    "output": "CMakeFiles/MyApp.dir/Banana/moar.swift.o"
+    "arguments": ["swiftc", "-j 10", "-num-threads 10", "-c", "-module-name MyApp", "-incremental", "-output-file-map", "Banana/main.swift", "Banana/moar.swift"],
+    "file": "Banana/moar.swift"
   }
   ]
