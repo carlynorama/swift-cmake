@@ -31,3 +31,7 @@ https://developer.apple.com/documentation/packagedescription/target/sources
 Discussion
 If this property is nil, Swift Package Manager includes all valid source files in the target’s path and treats specified paths as relative to the target’s path.
 A path can be a path to a directory or an individual source file. In case of a directory, Swift Package Manager searches for valid source files recursively inside it.
+
+Tip from an ask:
+SourceKitLSP can work with non-SwiftPM projects if you create a compile_commands.json database or you can create a configuration file and populate the compilationDatabase
+https://github.com/swiftlang/sourcekit-lsp/blob/main/Documentation/Configuration%20File.md#configuration-file
