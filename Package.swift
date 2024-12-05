@@ -10,8 +10,8 @@
 //         // Targets can depend on other targets in this package and products from dependencies.
 //         .executableTarget(
 //             name: "swift-executable",
-//             path: ".",
-//             //path: "Banana",
+//             //path: ".",
+//             path: "Banana",
 //             exclude: ["CMakeLists.txt", "CMakePresets.json", "README.md", "build.sh"]
 //         )
 //     ]

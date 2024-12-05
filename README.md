@@ -35,3 +35,30 @@ A path can be a path to a directory or an individual source file. In case of a d
 Tip from an ask:
 SourceKitLSP can work with non-SwiftPM projects if you create a compile_commands.json database or you can create a configuration file and populate the compilationDatabase
 https://github.com/swiftlang/sourcekit-lsp/blob/main/Documentation/Configuration%20File.md#configuration-file
+
+searching github: https://github.com/apple/swift-embedded-examples/blob/fc1942bc094947bb2c73fe194d3fc1d207cb418d/stm32-uart-echo/.sourcekit-lsp/config.json#L4
+
+```json
+{
+  "swiftPM": {
+    "configuration": "release",
+    "triple": "armv7em-apple-none-macho",
+    "swiftCompilerFlags": ["-Xfrontend", "-disable-stack-protector"],
+    "cCompilerFlags": ["-D__APPLE__", "-D__MACH__"]
+  }
+}
+```
+- https://github.com/swiftlang/sourcekit-lsp/blob/3131ca3c81c2895d7e319bb10abab1d9801f4bd9/Documentation/Using%20SourceKit-LSP%20with%20Embedded%20Projects.md
+- https://forums.swift.org/t/sourcekit-lsp-and-cmake/67956
+- https://github.com/apple/foundationdb/blob/main/SWIFT_IDE_SETUP.md
+- https://github.com/apple/foundationdb/blob/main/contrib/gen_compile_db.py
+- https://github.com/apple/foundationdb/blob/29aa68a3be042cc9c1e03cf106ef7ed1b6ffc854/CMakeLists.txt#L240
+- https://github.com/apple/swift-clang/blob/d7403439fc6641751840b723e7165fb02f52db95/test/Index/compile_commands.json#L4
+- https://github.com/swiftlang/sourcekit-lsp/blob/3131ca3c81c2895d7e319bb10abab1d9801f4bd9/Sources/BuildSystemIntegration/CompilationDatabase.swift#L158
+compile_commands.json
+
+seems related: 
+- https://github.com/swiftlang/swift-docc/issues/1105
+- https://github.com/swiftlang/vscode-swift/issues/636
+- https://github.com/swiftlang/vscode-swift/issues/1208
+- https://github.com/swiftlang/vscode-swift/issues/1087

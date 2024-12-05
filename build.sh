@@ -15,7 +15,8 @@ export SHARED=$SHAREDROOT
 
 mkdir -p $BUILDROOT
 
-cmake -B $BUILDROOT -G Ninja .
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -B $BUILDROOT -G Ninja .
+# cmake -B $BUILDROOT -G Ninja .
 if cmake --build $BUILDROOT ; then
     cd $BUILDROOT
     ./$PN
