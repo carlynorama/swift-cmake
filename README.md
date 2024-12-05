@@ -13,7 +13,7 @@ Went ahead and created minimal Package.swift, which helped when added [path](htt
 
 Interestingly enough, preserved linking even when Package.swift was commented out... until quit and restarted!
 
-Was trying to not use a Package.swift because target project is a bit more free form, but can maybe just add a sacrificial one with a path: "." to just get along. Add to gitignore?
+Was trying to not use a Package.swift because target project is a bit more free form, and including one seems misleading. But can maybe just add a sacrificial one with a path: "." to just get along in VSCode. Add to gitignore?
 
 (swift-driver version: 1.112.3 Apple Swift version 6.0 (swiftlang-6.0.0.6.8 clang-1600.0.23.1))
 
