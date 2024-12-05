@@ -1,3 +1,2 @@
-DELETE THIS NOTE: lives in root/build or place indicated in .sourcekit-lsp
 -I 
 Banana/
