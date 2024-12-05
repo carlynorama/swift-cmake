@@ -67,3 +67,5 @@ seems related:
 - https://github.com/swiftlang/vscode-swift/issues/1208
 - https://github.com/swiftlang/vscode-swift/issues/1087
 - https://github.com/zed-extensions/swift/issues/13
+
+"swiftCompilerFlags": ["-I", "Banana/"]

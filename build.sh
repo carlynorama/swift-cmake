@@ -15,16 +15,22 @@ export SHARED=$SHAREDROOT
 
 mkdir -p $BUILDROOT
 
-cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -B $BUILDROOT -G Ninja .
-# cmake -B $BUILDROOT -G Ninja .
-if cmake --build $BUILDROOT ; then
-    cd $BUILDROOT
-    ./$PN
-    cd $OLDPWD
-fi
+# cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -B $BUILDROOT -G Ninja .
+# # cmake -B $BUILDROOT -G Ninja .
+# if cmake --build $BUILDROOT ; then
+#     cd $BUILDROOT
+#     ./$PN
+#     cd $OLDPWD
+# fi
 
 
 # if swiftc *swift -o $BUILDROOT/$PN ; then
+#     cd $BUILDROOT
+#     ./$PN
+#     cd $OLDPWD
+# fi
+
+# if swiftc Banana/*.swift -o $BUILDROOT/$PN ; then
 #     cd $BUILDROOT
 #     ./$PN
 #     cd $OLDPWD

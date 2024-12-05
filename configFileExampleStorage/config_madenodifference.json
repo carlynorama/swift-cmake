@@ -1,0 +1,9 @@
+DELETE THIS NOTE: lives in .sourcekit-lsp
+
+{
+  "swiftpm" : {
+    "configuration": "debug",
+    "swiftCompilerFlags": ["-Xswiftc Banana/*.swift"],
+    "cCompilerFlags": ["-I", "Banana/"]
+  }
+}

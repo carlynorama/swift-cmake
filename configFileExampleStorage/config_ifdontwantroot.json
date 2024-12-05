@@ -1,0 +1,7 @@
+DELETE THIS NOTE: lives in .sourcekit-lsp
+
+{
+    "compilationDatabase" : {
+      "searchPaths": ["ExtraPlaceForConfig"]
+    }
+}

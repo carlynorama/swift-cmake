@@ -1,5 +1,5 @@
 {
-    "compilationDatabase" : {
-      "searchPaths": ["ExtraPlaceForConfig"]
-    }
-}
+      "compilationDatabase" : {
+        "searchPaths": [".sourcekit-lsp/ActiveCDB"]
+      }
+  }

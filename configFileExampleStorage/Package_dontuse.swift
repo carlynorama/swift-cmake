@@ -1,3 +1,5 @@
+DELETE THIS NOTE: lives in root or subfolder but one is in root, subfolders might have trouble?
+
 // // swift-tools-version: 6.0
 // // The swift-tools-version declares the minimum version of Swift required to build this package.
 
