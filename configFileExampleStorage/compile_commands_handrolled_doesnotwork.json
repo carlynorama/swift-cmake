@@ -1,0 +1,24 @@
+[
+  {
+    "directory": "Banana",
+    "arguments": [
+      "swiftc",  
+      "main.swift", 
+      "moar.swift",
+      "-o",
+      "../build/MyApp"
+    ],
+      "file": "main.swift"
+  },
+  {
+    "directory": "Banana",
+    "arguments": [
+      "swiftc", 
+      "main.swift", 
+      "moar.swift",
+      "-o",
+      "../build/MyApp"
+    ],
+    "file": "moar.swift"
+  }
+  ]
