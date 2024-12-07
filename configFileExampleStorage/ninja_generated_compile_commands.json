@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/Users/$USER/Developer/Projects/swift-cmake/build",
+    "command": "",
+    "file": ".",
+    "output": "cmake_object_order_depends_target_MyApp"
+  },
+  {
+    "directory": "/Users/$USER/Developer/Projects/swift-cmake/build",
+    "command": "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -j 10 -num-threads 10 -c  -module-name MyApp  -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -incremental -output-file-map CMakeFiles/MyApp.dir//output-file-map.json  /Users/$USER/Developer/Projects/swift-cmake/Banana/main.swift /Users/$USER/Developer/Projects/swift-cmake/Banana/moar.swift",
+    "file": "/Users/$USER/Developer/Projects/swift-cmake/Banana/main.swift",
+    "output": "CMakeFiles/MyApp.dir/Banana/main.swift.o"
+  },
+  {
+    "directory": "/Users/$USER/Developer/Projects/swift-cmake/build",
+    "command": ": && /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -j 10 -num-threads 10 -emit-executable -o MyApp -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk CMakeFiles/MyApp.dir/Banana/main.swift.o CMakeFiles/MyApp.dir/Banana/moar.swift.o    && :",
+    "file": "CMakeFiles/MyApp.dir/Banana/main.swift.o",
+    "output": "MyApp"
+  },
+  {
+    "directory": "/Users/$USER/Developer/Projects/swift-cmake/build",
+    "command": "",
+    "file": "CMakeFiles/edit_cache.util",
+    "output": "edit_cache"
+  },
+  {
+    "directory": "/Users/$USER/Developer/Projects/swift-cmake/build",
+    "command": "",
+    "file": "CMakeFiles/rebuild_cache.util",
+    "output": "rebuild_cache"
+  },
+  {
+    "directory": "/Users/$USER/Developer/Projects/swift-cmake/build",
+    "command": "",
+    "file": "MyApp",
+    "output": "all"
+  },
+  {
+    "directory": "/Users/$USER/Developer/Projects/swift-cmake/build",
+    "command": "/opt/homebrew/bin/cmake --regenerate-during-build -S/Users/$USER/Developer/Projects/swift-cmake -B/Users/$USER/Developer/Projects/swift-cmake/build",
+    "file": "/Users/$USER/Developer/Projects/swift-cmake/CMakeLists.txt",
+    "output": "build.ninja"
+  }
+]

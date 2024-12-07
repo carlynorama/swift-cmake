@@ -1,7 +1,7 @@
 # Swift Building CMake & VSCode
 
 
-###__Current goal:__ use a compile_commands.json to tell source kit what my files are. Can put it in the root directory or use a .sourcekit-lsp file to specify its location.
+###__WINNER!:__ use Ninja's generator. Not CMAKE's
 
 
 What does it take to get the VSCode editor / Swift plugin to acknowledge the files that the CMake file adds to the target?
@@ -55,6 +55,7 @@ searching github: https://github.com/apple/swift-embedded-examples/blob/fc1942bc
 
 ## More Useful Links
 
+- https://github.com/Sarcasm/notes/blob/master/dev/compilation-database.rst#clang
 - https://clang.llvm.org/docs/JSONCompilationDatabase.html
 - https://github.com/swiftlang/sourcekit-lsp/blob/3131ca3c81c2895d7e319bb10abab1d9801f4bd9/Documentation/Using%20SourceKit-LSP%20with%20Embedded%20Projects.md
 - https://forums.swift.org/t/sourcekit-lsp-and-cmake/67956

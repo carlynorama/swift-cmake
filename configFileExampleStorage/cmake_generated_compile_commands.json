@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/~USER/Developer/Projects/swift-cmake/build",
+  "command": "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -j 10 -num-threads 10 -c -module-name MyApp  -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -incremental -output-file-map CMakeFiles/MyApp.dir//output-file-map.json /Users/~USER/Developer/Projects/swift-cmake/Banana/main.swift /Users/~USER/Developer/Projects/swift-cmake/Banana/moar.swift",
+  "file": "/Users/~USER/Developer/Projects/swift-cmake/Banana/main.swift",
+  "output": "CMakeFiles/MyApp.dir/Banana/main.swift.o"
+},
+{
+  "directory": "/Users/~USER/Developer/Projects/swift-cmake/build",
+  "command": "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -j 10 -num-threads 10 -c -module-name MyApp  -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -incremental -output-file-map CMakeFiles/MyApp.dir//output-file-map.json /Users/~USER/Developer/Projects/swift-cmake/Banana/main.swift /Users/~USER/Developer/Projects/swift-cmake/Banana/moar.swift",
+  "file": "/Users/~USER/Developer/Projects/swift-cmake/Banana/moar.swift",
+  "output": "CMakeFiles/MyApp.dir/Banana/moar.swift.o"
+}
+]

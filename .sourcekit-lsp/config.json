@@ -1,0 +1,6 @@
+{
+      "compilationDatabase" : {
+        "searchPaths": ["build/compile_commands.json"]
+      },
+      "defaultWorkspaceType" : "compdb"
+  }
