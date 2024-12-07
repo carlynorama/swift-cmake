@@ -1,5 +1,6 @@
 {
       "compilationDatabase" : {
-        "searchPaths": [".sourcekit-lsp/ActiveCDB"]
-      }
+        "searchPaths": ["configFileExampleStorage/compile_commands.json"]
+      },
+      "defaultWorkspaceType" : "compdb"
   }
