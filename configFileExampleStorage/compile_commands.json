@@ -1,12 +1,12 @@
 [
   {
     "directory": "Banana",
-    "command": "swiftc -j 10 -num-threads 10 -c -module-name MyApp -incremental -output-file-map Banana/main.swift Banana/moar.swift",
-    "file": "Banana/main.swift"
-  },
-  {
-    "directory": "build",
     "arguments": ["swiftc", "-j 10", "-num-threads 10", "-c", "-module-name MyApp", "-incremental", "-output-file-map", "Banana/main.swift", "Banana/moar.swift"],
     "file": "Banana/moar.swift"
+  },
+  {
+    "directory": "Banana",
+    "command": "swiftc -j 10 -num-threads 10 -c -module-name MyApp -incremental -output-file-map Banana/main.swift Banana/moar.swift",
+    "file": "Banana/main.swift"
   }
   ]
