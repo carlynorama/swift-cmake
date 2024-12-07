@@ -30,8 +30,8 @@ mkdir -p $BUILDROOT
 #     cd $OLDPWD
 # fi
 
-# if swiftc Banana/*.swift -o $BUILDROOT/$PN ; then
-#     cd $BUILDROOT
-#     ./$PN
-#     cd $OLDPWD
-# fi
+if swiftc Banana/*.swift -o $BUILDROOT/$PN ; then
+    cd $BUILDROOT
+    ./$PN
+    cd $OLDPWD
+fi

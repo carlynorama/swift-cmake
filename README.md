@@ -1,5 +1,9 @@
 # Swift Building CMake & VSCode
 
+
+###__Current goal:__ use a compile_commands.json to tell source kit what my files are. Can put it in the root directory or use a .sourcekit-lsp file to specify its location.
+
+
 What does it take to get the VSCode editor / Swift plugin to acknowledge the files that the CMake file adds to the target?
 
 What would it take to just YOLO add any .swift files in the workspace to the path?

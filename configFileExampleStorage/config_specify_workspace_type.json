@@ -1,3 +1,4 @@
+DELETE THIS NOTE: lives in .sourcekit-lsp
 {
       "compilationDatabase" : {
         "searchPaths": ["configFileExampleStorage/compile_commands.json"]
