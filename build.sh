@@ -15,7 +15,17 @@ export SHARED=$SHAREDROOT
 
 mkdir -p $BUILDROOT
 
-#cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -B $BUILDROOT -G Ninja .
+# ## Use CMake compile_commands.json
+# ## set(CMAKE_EXPORT_COMPILE_COMMANDS ON) in the file CMakeLists.txt or the flag below
+# cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=YES -B $BUILDROOT -G Ninja .
+# if cmake --build $BUILDROOT ; then
+#     cd $BUILDROOT
+#     ./$PN
+#     cd $OLDPWD
+# fi
+
+
+## Use Ninja compile_commands.json
 cmake -B $BUILDROOT -G Ninja .
 if cmake --build $BUILDROOT ; then
     cd $BUILDROOT
