@@ -1,3 +1,4 @@
 DELETE THIS NOTE: lives in root/build or place indicated in .sourcekit-lsp
+DELETE THIS NOTE: As written its useless, mostly here to remind me they exist
 -I 
 Banana/
