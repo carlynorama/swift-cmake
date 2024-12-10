@@ -1,7 +1,9 @@
 # Swift Building CMake & VSCode
 
 
-###__WINNER!:__ use Ninja's generator. Not CMAKE's
+###__WINNER!:__ The build scrip now has two choices, to use CMake or Ninja to generate a compile_commands.json file and leave them it the build folder. The config.json specifically calls that location out and specifies `"defaultWorkspaceType" : "compdb"` I have not tried removing it to see if sourcekit-lsp auto finds it yet (it may!) I did find it when I put it in the root folder of the project. 
+
+Still todo - see if I can make a working compile_flags.txt version.
 
 
 What does it take to get the VSCode editor / Swift plugin to acknowledge the files that the CMake file adds to the target?
