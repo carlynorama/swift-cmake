@@ -53,9 +53,13 @@ Sourcekit-lsp has three modes:
 
 #### General Reference
 
+
+- https://clangd.llvm.org/design/compile-commands
+- https://clang.llvm.org/docs/JSONCompilationDatabase.html
+- https://github.com/clangd/coc-clangd/issues/55
 - https://github.com/Sarcasm/notes/blob/master/dev/compilation-database.rst#clang
 - https://eli.thegreenplace.net/2014/05/21/compilation-databases-for-clang-based-tools
-- https://clang.llvm.org/docs/JSONCompilationDatabase.html
+
 
 #### Swift Specific 
 
