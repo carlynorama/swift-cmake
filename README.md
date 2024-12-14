@@ -2,6 +2,8 @@
 
 (swift-driver version: 1.112.3 Apple Swift version 6.0 (swiftlang-6.0.0.6.8 clang-1600.0.23.1))
 
+https://www.swift.org/documentation/articles/wrapping-c-cpp-library-in-swift.html
+
 ## The purpose of This Repo
 
 I would like to use Swift outside the context of the Swift Package Manager. I would like that to be IDE independent (so no heavy reliance on .vscode json). The real trick is how to get sourcekit-lsp versions to understand what my build system already knows. Normally Swift Package Manager does a great job with that, but some of my projects aren't a good fit.
@@ -107,6 +109,7 @@ You don't really have to ever use the CMake or Ninja build again if you don't ad
 - https://github.com/swiftlang/sourcekit-lsp/blob/main/Documentation/Editor%20Integration.md 
 - https://www.swift.org/documentation/articles/zero-to-swift-emacs.html
 - https://feifan.blog/posts/how-to-use-sourcekit-lsp
+- https://www.swift.org/documentation/articles/wrapping-c-cpp-library-in-swift.html
 
 ### compile_commands/compile_command generators in apple or swiftlang repos
 - https://github.com/apple/foundationdb/blob/main/contrib/gen_compile_db.py
@@ -122,6 +125,7 @@ compile_commands.json
 - https://forums.swift.org/t/extending-functionality-of-build-server-protocol-with-sourcekit-lsp/74400
 - https://forums.swift.org/t/how-to-use-sourcekit-lsp-to-develop-the-swift-compiler-repo/66167
 - https://forums.swift.org/t/sourcekit-lsp-and-cmake/67956/6
+- https://forums.swift.org/t/use-a-spm-package-in-a-project-compiled-with-cmake/76211
 - (2020) https://forums.swift.org/t/bug-cmake-swift-bad-compile-commands-json/38298
   - https://gitlab.kitware.com/cmake/cmake/-/issues/19443
 
