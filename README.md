@@ -32,7 +32,9 @@ Sourcekit-lsp has three modes:
 
  This project is about trying to use Compilation Database mode.
 
- To that end in the config file I forced the issue by specifying both `"defaultWorkspaceType": "compdb"` and the location of the `"compilationDatabase" :  { "searchPaths": [] }`. In theory the presence of a `compile_commands.json` in the root of the project or a "known build folder" (how does it know? `.build`? `build`? What is the default?) should also do the trick without needing a config.json at all, but one I got the current set up working I did not confirm. 
+ To that end in the config file I forced the issue by specifying both `"defaultWorkspaceType": "compdb"` and the location of the `"compilationDatabase" :  { "searchPaths": [] }`. 
+ 
+The easiest route is to put a `compile_commands.json` in the root of the project or a "known build folder" (how does it know? `.build`? `build`? What is the default?). I have yet to make a a custom search path work. The documentation says it is relative to the workspace root, but how sourcekit-lsp determines what is a workspace root is not clearly documented. I find more VSCode will start us use a compile_commands.json file no matter what folder it is in once you open it, if it's using absolute paths. Zed is not so forgiving and really wants it in the build folder or root of the project/subproject folder. 
 
  __TODO:__ Can I use `generatedFilesPath:` or `index` to side step the need for a separate `compile_commands.json`?
 
@@ -100,6 +102,11 @@ fi
 ```
 
 You don't really have to ever use the CMake or Ninja build again if you don't add any new files and your commandline build has the same build products. The database will be correct. 
+
+## TODO: 
+
+- The docs say "If the XDG_CONFIG_HOME environment variable is set: $XDG_CONFIG_HOME/sourcekit-lsp/config.json" it will look for config.json there. I think its looking in the vscode workspace root, is vscode setting that? 
+- How does sourcekit-lsp determine a workspace root, generally? 
 
 ## More Useful Links
 
