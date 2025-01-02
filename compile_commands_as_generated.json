@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/carlynorama/Developer/AdventOfCode/swift-cmake/WeirdoBuildFolderName",
+  "command": "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -j 10 -num-threads 10 -c -module-name MyApp  -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -incremental -output-file-map CMakeFiles/MyApp.dir//output-file-map.json /Users/carlynorama/Developer/AdventOfCode/swift-cmake/SomeSourceFolder/Banana/main.swift /Users/carlynorama/Developer/AdventOfCode/swift-cmake/SomeSourceFolder/Banana/moar.swift",
+  "file": "/Users/carlynorama/Developer/AdventOfCode/swift-cmake/SomeSourceFolder/Banana/main.swift",
+  "output": "CMakeFiles/MyApp.dir/SomeSourceFolder/Banana/main.swift.o"
+},
+{
+  "directory": "/Users/carlynorama/Developer/AdventOfCode/swift-cmake/WeirdoBuildFolderName",
+  "command": "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -j 10 -num-threads 10 -c -module-name MyApp  -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -incremental -output-file-map CMakeFiles/MyApp.dir//output-file-map.json /Users/carlynorama/Developer/AdventOfCode/swift-cmake/SomeSourceFolder/Banana/main.swift /Users/carlynorama/Developer/AdventOfCode/swift-cmake/SomeSourceFolder/Banana/moar.swift",
+  "file": "/Users/carlynorama/Developer/AdventOfCode/swift-cmake/SomeSourceFolder/Banana/moar.swift",
+  "output": "CMakeFiles/MyApp.dir/SomeSourceFolder/Banana/moar.swift.o"
+}
+]
