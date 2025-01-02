@@ -8,7 +8,8 @@ let hello = 35
 
 
 // YOU MUST BUILD ONCE TO GET THE compile_commands.json
-//file to appear. once built once, can uncomment this section to check. 
+//file to appear. once built once, can uncomment this section to check 
+//lsp isn't just crashed. 
 
 // shouldWarn me does know what dinnerTonight is because, because ISN'T 
 // defined anywhere
