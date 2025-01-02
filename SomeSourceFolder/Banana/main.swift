@@ -13,7 +13,7 @@ let hello = 35
 
 // shouldWarn me does know what dinnerTonight is because, because ISN'T 
 // defined anywhere
-// dinnerTonight = "Spaghetti" 
+dinnerTonight = "Spaghetti" 
 
 // //no warning, no warning, warning
 // print(newNumber, hello, dinnerTonight)

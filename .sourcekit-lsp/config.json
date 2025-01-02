@@ -1,4 +1,5 @@
 {
-  "searchPaths": ["george"],
-  "defaultWorkspaceType": "compdb"
+  "compilationDatabase": {
+    "searchPaths": ["george"]
+  }
 }
